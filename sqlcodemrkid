@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th7 31, 2021 lúc 08:12 PM
--- Phiên bản máy phục vụ: 10.3.30-MariaDB-cll-lve
--- Phiên bản PHP: 7.3.28
+-- Thời gian đã tạo: Th7 13, 2022 lúc 09:45 AM
+-- Phiên bản máy phục vụ: 10.3.35-MariaDB-log-cll-lve
+-- Phiên bản PHP: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `thopsieucapcf_mrkid`
+-- Cơ sở dữ liệu: `tvip1ssite_shopcuadamin`
 --
 
 -- --------------------------------------------------------
@@ -625,12 +625,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `admin`, `name`, `username`, `password`, `email`, `money`, `money_nap`, `kimcuong`, `quanhuy`, `token`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(75, '0', 0, '', 'khoakillall2', 'e10adc3949ba59abbe56e057f20f883e', 'khoakillall301@gmail.com', '0', '0', '0', '0', '44cb4b6ffed956c3f084907e3ffefcf30a6196004f97e8a90578423f464a', '0d640cc2ef65238294db49e63b5178a7ce4926ed84febd171419abf64be5', '14.233.255.254', 'true', '82577', 1626007713),
-(82, '0', 0, '', 'zakboycoder', 'fb45ae8e54d976a30d84b55fec8336d5', 'poxevi1511@frnla.com', '99998986000', '0', '835601', '0', '3d6fbe8ab4e89b337480908d2cf1781421e3a5e8f9165513f764177e1d90', '4649bfb08d8bc6a2df3b88e3fa1551e799361596fb40ae21561ab3712839', '2001:ee0:553d:f5e0:8857:7ee6:6f8f:edc9', 'true', '19558', 1626532552),
-(77, '0', 0, '', 'taul00608', 'fb45ae8e54d976a30d84b55fec8336d5', 'poxevi1511@frnla.com', '0', '0', '0', '0', '8d1c9dba395512ef4db66e18468990ffc040029406f6197546bf8751d9f9', 'eb8abbe96324e67aa648a29706e03c648d62f56a47e4224bb72b2679688f', '2001:ee0:5530:e280:c058:cedd:aa85:d74d', 'true', '65423', 1626308935),
-(81, '0', 0, '', 'kkk139', 'fb45ae8e54d976a30d84b55fec8336d5', 'Tại@gamil.com', '0', '0', '0', '0', 'a1854ddf2a7f03f9e9ef9221dafef5a9573f43a72650e4f4fb08d40875ef', 'b4526603a957abc9d44f0c510ab6fbc5b6aeaf842611067d65c7fedfa93c', '2001:ee0:5530:e280:ec2e:ac9d:f6cc:6a3a', 'true', '72926', 1626359019),
-(83, '0', 0, '', 'tamdubai', '5b1b68a9abf4d2cd155c81a9225fd158', 'longoctam55@gmail.com', '0', '0', '0', '0', 'b482f166c41c94c45d00cbfcb9d9131437c77a496af4f5047a17b0a3a3a3', '5c16be98689eccfd275bb31ada5984e42a0f0a813deeff04447ee613cb91', '2001:ee0:4488:3ef0:5416:e37a:de7e:bb32', 'true', '11296', 1626941875),
-(86, '0', 20, '', 'khoakillall3010', 'e10adc3949ba59abbe56e057f20f883e', 'khoakillall3010@gmail.com', '99354000', '0', '140506', '0', '24a8abcf4d5d0165811757e362392379d77124d4c7486f1d3cfc5a4996d1', 'b9fb20819c55db433fa134677e808817c9dc6506fa13381b5efa52a19eb5', '222.254.112.14', 'true', '36565', 1627563867);
+(87, '0', 20, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '0', '0', '0', '0', '4cde53058e44fa49a16520378fd1235fa0ab77040fd525b06791ff95a178', '251be6520ba2ea55c84e1b3210e0ef8293bf0bfdb68babb0686527189ca8', '42.114.33.230', 'true', '16054', 1657676498);
 
 -- --------------------------------------------------------
 
@@ -2762,7 +2757,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 
 --
 -- AUTO_INCREMENT cho bảng `user_history_system`
