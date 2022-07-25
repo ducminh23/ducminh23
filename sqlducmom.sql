@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.9.7
 -- https://www.phpmyadmin.net/
 --
--- Máy chủ: sql103.epizy.com
--- Thời gian đã tạo: Th1 12, 2022 lúc 11:46 PM
--- Phiên bản máy phục vụ: 5.7.36-39
--- Phiên bản PHP: 7.2.22
+-- Máy chủ: localhost:3306
+-- Thời gian đã tạo: Th7 25, 2022 lúc 04:05 PM
+-- Phiên bản máy phục vụ: 10.5.16-MariaDB-cll-lve
+-- Phiên bản PHP: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `epiz_30761726_testshopacc`
+-- Cơ sở dữ liệu: `dichvuc9_code`
 --
 
 -- --------------------------------------------------------
@@ -345,7 +345,7 @@ CREATE TABLE `setting_bingo` (
   `item_6` int(11) NOT NULL,
   `item_7` int(11) NOT NULL,
   `giatien` varchar(999) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '0',
-  `sudung` int(255) NOT NULL DEFAULT '0'
+  `sudung` int(255) NOT NULL DEFAULT 0
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -430,7 +430,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `admin`, `name`, `username`, `password`, `email`, `money`, `money_nap`, `kimcuong`, `quanhuy`, `token`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(56, '0', 1412, 'Nguyễn Phương Nam', 'namcoder', '8db286efcba22cceae79f1b105ae8987', 'kemmygamertv@gmail.com', '0', '0', '0', '0', '9271fda1cbea3cb20e1e3b77d134e999f8ef13b39faeb21c922689428326', '016341767063093fe54371567ff77b7b6cdda0072b060451561696f53840', '14.248.59.231', 'true', '33259', 1642043780);
+(57, '0', 1412, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap@gmail.com', '0', '0', '0', '0', 'a8c9d8b48e3954107a7ee451d692c101ff3276ce6d8a7348fd9b06ea31e2', 'a38686d6b0d6d69dc1beacec4182c9c17ac5c729a5d200f0a02cae2f45e8', '2405:4802:1b1:52a0:24eb:9544:98a9:a22e', 'true', '22012', 1658739854);
 
 -- --------------------------------------------------------
 
@@ -980,7 +980,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 
 --
 -- AUTO_INCREMENT cho bảng `user_history_system`
