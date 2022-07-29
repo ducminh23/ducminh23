@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th5 15, 2022 lúc 08:51 PM
--- Phiên bản máy phục vụ: 10.5.13-MariaDB-cll-lve
--- Phiên bản PHP: 7.4.29
+-- Thời gian đã tạo: Th7 29, 2022 lúc 06:09 PM
+-- Phiên bản máy phục vụ: 10.3.35-MariaDB-log-cll-lve
+-- Phiên bản PHP: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `topmonter00cf_ken00`
+-- Cơ sở dữ liệu: `teefire1ssite_shopkcff`
 --
 
 -- --------------------------------------------------------
@@ -1461,6 +1461,72 @@ INSERT INTO `register_gift` (`id`, `username`, `name`, `kimcuong`, `time`) VALUE
 (0, 'ancoder383', 'AnCoder', '24', 1629465992),
 (0, 'adminbao', 'PHAM TAN BAO', '24', 1652595882),
 (0, 'baotran100', 'Phạm Tấn Bảo', '28', 1652597664),
+(0, '', '', '28', 1652617704),
+(0, 'adminvxt', 'adminvxt', '21', 1627445365),
+(0, 'khaideveloperv3', 'Lê Quang Khải', '30', 1627459202),
+(0, 'thanhletvn', 'Thành Lê', '20', 1627470557),
+(0, 'admin1234', 'Admin1234', '29', 1627577916),
+(0, 'huynhxuanbach', 'Xuanbach', '23', 1627643520),
+(0, 'dat', 'Hhh', '22', 1627665443),
+(0, 'ductang134', 'ductang', '21', 1627727331),
+(0, 'danchojhd91', 'Nguyễn Văn Gia Minh', '20', 1627731641),
+(0, 'longduongsml', 'Nguyễn huy Long ', '21', 1627755354),
+(0, 'gebunrb7rn', 'Cjfi4nhiurbrj', '27', 1627796026),
+(0, 'huy1234', 'Huy', '28', 1627800848),
+(0, 'phanvantai', 'phanvantai', '30', 1627804423),
+(0, 'phat345', 'Lonmemay', '21', 1627825319),
+(0, 'minh123', 'Minhlun', '28', 1627826395),
+(0, '08654322', 'Nguyen phuoc', '26', 1627866395),
+(0, '0388169880', 'Nguyễn văn duong', '25', 1627880020),
+(0, '02815238325', 'Khôi Anh ', '22', 1627882245),
+(0, 'dathehe', 'Nguyễnđatj', '29', 1627882353),
+(0, 'ancoder383', 'AnCoder', '24', 1629465992),
+(0, 'adminbao', 'PHAM TAN BAO', '24', 1652595882),
+(0, 'baotran100', 'Phạm Tấn Bảo', '28', 1652597664),
+(0, '', '', '28', 1652617704),
+(0, 'adminvxt', 'adminvxt', '21', 1627445365),
+(0, 'khaideveloperv3', 'Lê Quang Khải', '30', 1627459202),
+(0, 'thanhletvn', 'Thành Lê', '20', 1627470557),
+(0, 'admin1234', 'Admin1234', '29', 1627577916),
+(0, 'huynhxuanbach', 'Xuanbach', '23', 1627643520),
+(0, 'dat', 'Hhh', '22', 1627665443),
+(0, 'ductang134', 'ductang', '21', 1627727331),
+(0, 'danchojhd91', 'Nguyễn Văn Gia Minh', '20', 1627731641),
+(0, 'longduongsml', 'Nguyễn huy Long ', '21', 1627755354),
+(0, 'gebunrb7rn', 'Cjfi4nhiurbrj', '27', 1627796026),
+(0, 'huy1234', 'Huy', '28', 1627800848),
+(0, 'phanvantai', 'phanvantai', '30', 1627804423),
+(0, 'phat345', 'Lonmemay', '21', 1627825319),
+(0, 'minh123', 'Minhlun', '28', 1627826395),
+(0, '08654322', 'Nguyen phuoc', '26', 1627866395),
+(0, '0388169880', 'Nguyễn văn duong', '25', 1627880020),
+(0, '02815238325', 'Khôi Anh ', '22', 1627882245),
+(0, 'dathehe', 'Nguyễnđatj', '29', 1627882353),
+(0, 'ancoder383', 'AnCoder', '24', 1629465992),
+(0, 'adminbao', 'PHAM TAN BAO', '24', 1652595882),
+(0, 'baotran100', 'Phạm Tấn Bảo', '28', 1652597664),
+(0, '', '', '28', 1652617704),
+(0, 'adminvxt', 'adminvxt', '21', 1627445365),
+(0, 'khaideveloperv3', 'Lê Quang Khải', '30', 1627459202),
+(0, 'thanhletvn', 'Thành Lê', '20', 1627470557),
+(0, 'admin1234', 'Admin1234', '29', 1627577916),
+(0, 'huynhxuanbach', 'Xuanbach', '23', 1627643520),
+(0, 'dat', 'Hhh', '22', 1627665443),
+(0, 'ductang134', 'ductang', '21', 1627727331),
+(0, 'danchojhd91', 'Nguyễn Văn Gia Minh', '20', 1627731641),
+(0, 'longduongsml', 'Nguyễn huy Long ', '21', 1627755354),
+(0, 'gebunrb7rn', 'Cjfi4nhiurbrj', '27', 1627796026),
+(0, 'huy1234', 'Huy', '28', 1627800848),
+(0, 'phanvantai', 'phanvantai', '30', 1627804423),
+(0, 'phat345', 'Lonmemay', '21', 1627825319),
+(0, 'minh123', 'Minhlun', '28', 1627826395),
+(0, '08654322', 'Nguyen phuoc', '26', 1627866395),
+(0, '0388169880', 'Nguyễn văn duong', '25', 1627880020),
+(0, '02815238325', 'Khôi Anh ', '22', 1627882245),
+(0, 'dathehe', 'Nguyễnđatj', '29', 1627882353),
+(0, 'ancoder383', 'AnCoder', '24', 1629465992),
+(0, 'adminbao', 'PHAM TAN BAO', '24', 1652595882),
+(0, 'baotran100', 'Phạm Tấn Bảo', '28', 1652597664),
 (0, '', '', '28', 1652617704);
 
 -- --------------------------------------------------------
@@ -1560,8 +1626,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `admin`, `name`, `username`, `password`, `pass2`, `email`, `money`, `money_nap`, `kimcuong`, `kimcuonghong`, `luotquay`, `tile`, `tile2`, `luotghep`, `quanhuy`, `ngocxanh`, `vang`, `ngochong`, `binhphuphep`, `1sao`, `2sao`, `3sao`, `4sao`, `5sao`, `6sao`, `7sao`, `token`, `auth`, `ip`, `verify`, `verify_code`, `time`, `timediemdanh`) VALUES
-(826, '0', 0, 'Phạm Tấn Bảo', 'baotran100', 'c67cb25833f760d516a809ee8105a922', '', '', '0', 0, '287318', 0, 0, 0, 0, 0, '0', 0, '', 0, 0, '', '', '', '', '', '', '', '88814d11e0829a4fc7f74c29ed87f7dff9b0fa2c4bef2a72998e9d826643', '923390b26c4434f342db5afbeab1051b9d14a3cf5cfc1249f44b531eea31', '183.80.215.187', 'true', '23203', 1652597660, ''),
-(825, '0', 20, 'PHAM TAN BAO', 'adminbao', '75c4e40ab1ab1e2d6fb29818b96fb989', '12345678', '', '49928000', 0, '108', 0, 0, 0, 0, 0, '0', 0, '', 0, 0, '', '', '', '', '', '', '', '72603d995f46b1d3403407a6d52876e13bc09f75583dc7970fa9ee5ad483', '3b34555d991484f70013eb6cc7d98a49f0dee63f46b8c307b30c258fb12c', '183.80.215.187', 'true', '17037', 1652593292, '');
+(827, '0', 20, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'admin123', '', '0', 0, '0', 0, 0, 0, 0, 0, '0', 0, '', 0, 0, '', '', '', '', '', '', '', '90b3ddec204e32c25dff5ca16ee61a465122f18717a6c17c2b3cb9942b99', 'a40998913c5092de76e32da608cad04fbb53b919d4bc2a2d76d5512dd733', '58.186.165.228', 'true', '71345', 1659089199, '');
 
 -- --------------------------------------------------------
 
@@ -2133,7 +2198,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=827;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=828;
 
 --
 -- AUTO_INCREMENT cho bảng `user_history_system`
