@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th8 07, 2022 lúc 07:32 PM
+-- Thời gian đã tạo: Th8 07, 2022 lúc 08:58 PM
 -- Phiên bản máy phục vụ: 10.5.16-MariaDB-cll-lve
 -- Phiên bản PHP: 7.4.30
 
@@ -244,7 +244,7 @@ CREATE TABLE `napthe` (
 INSERT INTO `napthe` (`id`, `username`, `type`, `amount`, `serial`, `pin`, `tranid`, `status`, `time`) VALUES
 (1, 'admin123', '1', '20000', '272763637373737', '278282828282626', '717795', '1', 1659864500),
 (2, 'admin123', '1', '20000', '272763637373737', '728283737363', '715597', '0', 1659864659),
-(3, 'admin123', '1', '20000', '272763637373737', '728283737363', '161284', '2', 1659865590);
+(3, 'admin123', '1', '20000', '272763637373737', '728283737363', '161284', '1', 1659865590);
 
 -- --------------------------------------------------------
 
@@ -724,8 +724,7 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"game\":1,\"random\":\"1\"}'),
 (17, 'web_napthe', '{\"kieunap\":\"napcham\",\"apikey\":\"b8d4082e7494217e1e7661e7f038f6e9\"}'),
-(21, 'web_brick', '{\"site\":null,\"chieckhau\":\"1\",\"ck_nap\":\"1\",\"kieunapck\":null,\"partner_key\":null}'),
-(22, 'web_email', '{\"email_tk\":\"huynhtuantunha12@gmail.com \",\"email_mk\":\"huynhtuantu\",\"email_title\":\"auth.reset_your_password\",\"email_ten\":\"Hu\\u1ef3nh Tu\\u1ea5n T\\u00fa\",\"phanthuong_top\":\"<p><strong>\\u0110UA TOP N\\u1ea0P THE\\u0309 HA\\u0300NG THA\\u0301NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>NH\\u1eacN&nbsp;NGAY QUA\\u0300 C\\u01af\\u0323C KHU\\u0309NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 1: 5&nbsp;TRI\\u1ec6U +&nbsp;25.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 2: 3&nbsp;TRI\\u1ec6U +&nbsp;20.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 3: 1 TRI\\u1ec6U +&nbsp;15.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP4: 500K&nbsp;+ 9000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP5 : 200K + 5000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\"}');
+(21, 'web_brick', '{\"site\":null,\"chieckhau\":\"1\",\"ck_nap\":\"1\",\"kieunapck\":null,\"partner_key\":null}');
 
 -- --------------------------------------------------------
 
@@ -768,7 +767,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `vs`, `name`, `username`, `password`, `pass2`, `email`, `phone`, `money`, `money_nap`, `kimcuong`, `thoivang`, `quanhuy`, `vip`, `lixi`, `dh`, `gm`, `cet`, `ct`, `token`, `banned`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(1, '0', 1052, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '', '20000', 0, 0, '0', '0', 0, '0', 0, 'Thành Viên', 0, 0, 'a5d1e446d564aed9d9439cbfdb7c70c5fd2b3aa7b9c71f0d5d0c8af8cab4', '0', '68db2bbb3049ef5c65d14331555224041ba33887d3dfa53fdc7585cd703e', '118.71.172.44', 'true', '73617', 1659795435);
+(1, '0', 1052, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '', '40000', 0, 0, '0', '0', 0, '0', 0, 'Thành Viên', 0, 0, '3209908ade869ec9e163dce1da29f62e890b20593fa8e253954708d1fbc6', '0', '68db2bbb3049ef5c65d14331555224041ba33887d3dfa53fdc7585cd703e', '118.71.172.44', 'true', '73617', 1659795435);
 
 -- --------------------------------------------------------
 
