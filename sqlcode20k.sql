@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th8 07, 2022 lúc 11:38 AM
+-- Thời gian đã tạo: Th8 07, 2022 lúc 07:32 PM
 -- Phiên bản máy phục vụ: 10.5.16-MariaDB-cll-lve
 -- Phiên bản PHP: 7.4.30
 
@@ -236,6 +236,15 @@ CREATE TABLE `napthe` (
   `status` varchar(999) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `time` int(255) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Đang đổ dữ liệu cho bảng `napthe`
+--
+
+INSERT INTO `napthe` (`id`, `username`, `type`, `amount`, `serial`, `pin`, `tranid`, `status`, `time`) VALUES
+(1, 'admin123', '1', '20000', '272763637373737', '278282828282626', '717795', '1', 1659864500),
+(2, 'admin123', '1', '20000', '272763637373737', '728283737363', '715597', '0', 1659864659),
+(3, 'admin123', '1', '20000', '272763637373737', '728283737363', '161284', '2', 1659865590);
 
 -- --------------------------------------------------------
 
@@ -709,12 +718,12 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (10, 'web_banner', '{\"url\":\"https:\\/\\/img.upanh.tv\\/2022\\/08\\/06\\/bia2.png\"}'),
 (8, 'web_title', '{\"title\":\"Shop Acc H\\u00e0ng \\u0110\\u1ea7u Vi\\u1ec7t Nam\",\"name\":\"Shop Acc H\\u00e0ng \\u0110\\u1ea7u Vi\\u1ec7t Nam\"}'),
 (12, 'web_admin', '{\"name\":null,\"phone\":\"0498844884\",\"facebook\":\"https:\\/\\/dichvucheap.com\"}'),
-(13, 'web_thongbao', '{\"thongbao\":\"<p style=\\\"text-align:center\\\">&nbsp; &nbsp; &nbsp; \\u261bCh&agrave;o M\\u1eebng B\\u1ea1n \\u0110\\u1ebfn V\\u1edbi Shopnexvn.com&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\u261bn\\u1ea1p b\\u1eb1ng ATM,Momo t\\u1eb7ng 10% gi&aacute; tr\\u1ecb n\\u1ea1p,Card l&atilde;i su\\u1ea5t 0%,V&ograve;ng quay Kim c\\u01b0\\u01a1ng t\\u1ec9 l\\u1ec7 cao,Ch\\u1ec9 v\\u1edbi 20k b\\u1ea1n s\\u1ebd c&oacute; c\\u01a1 h\\u1ed9i quay tr&uacute;ng 19.999\\ud83d\\udc8ev&agrave; nhi\\u1ec1u ph\\u1ea7n qu&agrave; h\\u1ea5p d\\u1eabn kh&aacute;c&nbsp; &nbsp;Radom ff ch\\u1ee9a 1 kho acc l\\u1edbn \\u0111ang ch\\u1edd ae<\\/p>\\r\\n\\r\\n<p style=\\\"text-align:center\\\">Ch&uacute;c anh em may m\\u1eafn &hearts;<\\/p>\\r\\n\",\"time\":\"\"}'),
+(13, 'web_thongbao', '{\"thongbao\":\"\",\"time\":\"\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/nickff.gif\",\"lienquan\":\"https:\\/\\/lthquanly.shop\\/assets\\/upload\\/product\\/thumb%20acc%20li%C3%AAn%20qu%C3%A2n%20t%E1%BB%B1%20ch%E1%BB%8Dn.gif\",\"bingonoel\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumb.gif\",\"bingosieucap\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumbb.gif\",\"mayxeng\":null,\"homkimcuong\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/mo_ruong_than_tai.gif\",\"homthinhff\":null,\"lattheff\":null,\"gametrungthu\":null,\"giaicuu\":null}'),
 (11, 'web_color', '{\"color\":null,\"background\":\"https:\\/\\/i.upanh.org\\/2022\\/08\\/06\\/lPzOyJTN6L_1659694003.png\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"game\":1,\"random\":\"1\"}'),
-(17, 'web_napthe', '{\"kieunap\":\"\",\"apikey\":\"b8d4082e7494217e1e7661e7f038f6e9\"}'),
+(17, 'web_napthe', '{\"kieunap\":\"napcham\",\"apikey\":\"b8d4082e7494217e1e7661e7f038f6e9\"}'),
 (21, 'web_brick', '{\"site\":null,\"chieckhau\":\"1\",\"ck_nap\":\"1\",\"kieunapck\":null,\"partner_key\":null}'),
 (22, 'web_email', '{\"email_tk\":\"huynhtuantunha12@gmail.com \",\"email_mk\":\"huynhtuantu\",\"email_title\":\"auth.reset_your_password\",\"email_ten\":\"Hu\\u1ef3nh Tu\\u1ea5n T\\u00fa\",\"phanthuong_top\":\"<p><strong>\\u0110UA TOP N\\u1ea0P THE\\u0309 HA\\u0300NG THA\\u0301NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>NH\\u1eacN&nbsp;NGAY QUA\\u0300 C\\u01af\\u0323C KHU\\u0309NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 1: 5&nbsp;TRI\\u1ec6U +&nbsp;25.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 2: 3&nbsp;TRI\\u1ec6U +&nbsp;20.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP 3: 1 TRI\\u1ec6U +&nbsp;15.000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP4: 500K&nbsp;+ 9000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\\r\\n<p><strong>TOP5 : 200K + 5000 KIM C\\u01af\\u01a0NG<\\/strong><\\/p>\\r\\n\"}');
 
@@ -759,7 +768,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `vs`, `name`, `username`, `password`, `pass2`, `email`, `phone`, `money`, `money_nap`, `kimcuong`, `thoivang`, `quanhuy`, `vip`, `lixi`, `dh`, `gm`, `cet`, `ct`, `token`, `banned`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(1, '0', 1052, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '', '0', 0, 0, '0', '0', 0, '0', 0, 'Thành Viên', 0, 0, '697089067b10a75ef0db4687a2bb67902f1fdcbbcb2fb4379ab2316726ab', '0', '68db2bbb3049ef5c65d14331555224041ba33887d3dfa53fdc7585cd703e', '118.71.172.44', 'true', '73617', 1659795435);
+(1, '0', 1052, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '', '20000', 0, 0, '0', '0', 0, '0', 0, 'Thành Viên', 0, 0, 'a5d1e446d564aed9d9439cbfdb7c70c5fd2b3aa7b9c71f0d5d0c8af8cab4', '0', '68db2bbb3049ef5c65d14331555224041ba33887d3dfa53fdc7585cd703e', '118.71.172.44', 'true', '73617', 1659795435);
 
 -- --------------------------------------------------------
 
@@ -929,7 +938,7 @@ ALTER TABLE `mucgame`
 -- AUTO_INCREMENT cho bảng `napthe`
 --
 ALTER TABLE `napthe`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `random_freefire`
