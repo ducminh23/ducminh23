@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th7 13, 2022 lúc 09:45 AM
+-- Thời gian đã tạo: Th9 04, 2022 lúc 12:03 AM
 -- Phiên bản máy phục vụ: 10.3.35-MariaDB-log-cll-lve
 -- Phiên bản PHP: 7.4.30
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `tvip1ssite_shopcuadamin`
+-- Cơ sở dữ liệu: `dichvuc2_dvc`
 --
 
 -- --------------------------------------------------------
@@ -317,6 +317,7 @@ CREATE TABLE `rut_kim_cuong` (
   `kimcuong` varchar(999) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
   `noidung` varchar(999) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `status` varchar(999) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '2',
+  `request_id` varchar(999) NOT NULL,
   `time` int(255) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -324,62 +325,62 @@ CREATE TABLE `rut_kim_cuong` (
 -- Đang đổ dữ liệu cho bảng `rut_kim_cuong`
 --
 
-INSERT INTO `rut_kim_cuong` (`id`, `username`, `idgame`, `kimcuong`, `noidung`, `status`, `time`) VALUES
-(103, 'khoakillall', '1332334224442', '950', '', '2', 1626081280),
-(102, 'khoakillall', '1322343244324', '950', '', '2', 1626081269),
-(101, 'khoakillall', '13324535434325', '950', '', '2', 1626081257),
-(100, 'khoakillall', '122244345545554', '950', '', '2', 1626081244),
-(99, 'khoakillall', '12223433543764', '950', '', '2', 1626081229),
-(98, 'khoakillall', '1343%5445433444', '950', '', '2', 1626081211),
-(97, 'khoakillall', '132244255553', '950', '', '2', 1626081199),
-(96, 'khoakillall', '123245435543', '950', '', '2', 1626081186),
-(95, 'khoakillall', '12314425553244', '950', '', '2', 1626081176),
-(94, 'khoakillall', '2232233344434', '950', '', '2', 1626081165),
-(93, 'khoakillall', '1333543565643', '950', '', '2', 1626081155),
-(92, 'khoakillall', '13224434543553', '950', '', '2', 1626081145),
-(91, 'khoakillall', '12324535435653', '950', '', '2', 1626081134),
-(90, 'khoakillall', '132$543553455', '90', '', '2', 1626081125),
-(89, 'khoakillall', '133244245355', '950', '', '2', 1626081114),
-(88, 'khoakillall', '13323443555445', '950', '', '2', 1626081104),
-(87, 'khoakillall', '24325555433334', '950', '', '2', 1626081090),
-(86, 'khoakillall', '12324435545663', '950', '', '2', 1626081078),
-(85, 'khoakillall', '13225436646533', '950', '', '2', 1626081061),
-(84, 'khoakillall', '122244355456435543', '950', '', '2', 1626081045),
-(83, 'khoakillall', '1222442543345', '950', '', '2', 1626081030),
-(82, 'khoakillall', '1321442543553', '950', '', '2', 1626081018),
-(81, 'khoakillall', '1332553454355', '950', '', '2', 1626081004),
-(80, 'khoakillall', '1664543442344', '950', '', '2', 1626080986),
-(79, 'khoakillall', '132255466436', '950', '', '2', 1626080973),
-(78, 'khoakillall', '13555434334543', '950', '', '2', 1626080958),
-(77, 'khoakillall', '13324435654466433', '950', '', '2', 1626080941),
-(76, 'khoakillall', '123244$455333', '950', '', '2', 1626080923),
-(75, 'khoakillall', 'zưeeedđ', '950', '', '2', 1626080910),
-(74, 'khoakillall', '12225433553', '950', '', '2', 1626062168),
-(73, 'khoakillall', '1232244335543', '950', '', '2', 1626062157),
-(72, 'khoakillall', '1332443355425', '950', '', '2', 1626062146),
-(71, 'khoakillall', '12324435542453', '950', '', '2', 1626062135),
-(70, 'khoakillall', '12324436632', '950', '', '2', 1626062119),
-(69, 'khoakillall', '123326643553', '950', '', '2', 1626062109),
-(68, 'khoakillall', '/1345346643', '950', '', '2', 1626062090),
-(67, 'khoakillall', '1322664', '950', '', '2', 1626062080),
-(66, 'khoakillall', '12325532', '950', '', '2', 1626062062),
-(65, 'khoakillall', '1332244434533', '950', '', '2', 1626062047),
-(64, 'khoakillall', 'jjjj', '950', '', '2', 1626062025),
-(63, 'khoakillall', '13323454', '950', '', '2', 1626062008),
-(62, 'khoakillall', '123456789', '950', '', '2', 1626007566),
-(61, 'khoakillall', 'j', '90', '', '2', 1626006306),
-(60, 'khoakillall', '7868687687', '465', '', '2', 1626006258),
-(104, 'khoakillall', '123174553345', '950', '', '2', 1626081293),
-(105, 'khoakillall', '1232433654565', '950', '', '2', 1626081312),
-(106, 'khoakillall', '122435434532454', '950', '', '2', 1626081323),
-(107, 'khoakillall', '13325534543543', '950', '', '2', 1626081336),
-(108, 'khoakillall', '1332553663', '950', '', '1', 1626081345),
-(109, 'khoakillall', '132223233', '950', '', '1', 1626081363),
-(110, 'khoakillall', '133443543554', '950', '', '1', 1626081373),
-(111, 'khoakillall', '1005737578636', '950', '', '1', 1626314618),
-(112, 'tuancao', '58648456777', '950', '', '1', 1627446655),
-(113, 'tuancao', '58648456777', '950', '', '2', 1627446741),
-(114, 'zakboycoder', '1796795050', '950', '', '2', 1627524010);
+INSERT INTO `rut_kim_cuong` (`id`, `username`, `idgame`, `kimcuong`, `noidung`, `status`, `request_id`, `time`) VALUES
+(103, 'khoakillall', '1332334224442', '950', '', '2', '', 1626081280),
+(102, 'khoakillall', '1322343244324', '950', '', '2', '', 1626081269),
+(101, 'khoakillall', '13324535434325', '950', '', '2', '', 1626081257),
+(100, 'khoakillall', '122244345545554', '950', '', '2', '', 1626081244),
+(99, 'khoakillall', '12223433543764', '950', '', '2', '', 1626081229),
+(98, 'khoakillall', '1343%5445433444', '950', '', '2', '', 1626081211),
+(97, 'khoakillall', '132244255553', '950', '', '2', '', 1626081199),
+(96, 'khoakillall', '123245435543', '950', '', '2', '', 1626081186),
+(95, 'khoakillall', '12314425553244', '950', '', '2', '', 1626081176),
+(94, 'khoakillall', '2232233344434', '950', '', '2', '', 1626081165),
+(93, 'khoakillall', '1333543565643', '950', '', '2', '', 1626081155),
+(92, 'khoakillall', '13224434543553', '950', '', '2', '', 1626081145),
+(91, 'khoakillall', '12324535435653', '950', '', '2', '', 1626081134),
+(90, 'khoakillall', '132$543553455', '90', '', '2', '', 1626081125),
+(89, 'khoakillall', '133244245355', '950', '', '2', '', 1626081114),
+(88, 'khoakillall', '13323443555445', '950', '', '2', '', 1626081104),
+(87, 'khoakillall', '24325555433334', '950', '', '2', '', 1626081090),
+(86, 'khoakillall', '12324435545663', '950', '', '2', '', 1626081078),
+(85, 'khoakillall', '13225436646533', '950', '', '2', '', 1626081061),
+(84, 'khoakillall', '122244355456435543', '950', '', '2', '', 1626081045),
+(83, 'khoakillall', '1222442543345', '950', '', '2', '', 1626081030),
+(82, 'khoakillall', '1321442543553', '950', '', '2', '', 1626081018),
+(81, 'khoakillall', '1332553454355', '950', '', '2', '', 1626081004),
+(80, 'khoakillall', '1664543442344', '950', '', '2', '', 1626080986),
+(79, 'khoakillall', '132255466436', '950', '', '2', '', 1626080973),
+(78, 'khoakillall', '13555434334543', '950', '', '2', '', 1626080958),
+(77, 'khoakillall', '13324435654466433', '950', '', '2', '', 1626080941),
+(76, 'khoakillall', '123244$455333', '950', '', '2', '', 1626080923),
+(75, 'khoakillall', 'zưeeedđ', '950', '', '2', '', 1626080910),
+(74, 'khoakillall', '12225433553', '950', '', '2', '', 1626062168),
+(73, 'khoakillall', '1232244335543', '950', '', '2', '', 1626062157),
+(72, 'khoakillall', '1332443355425', '950', '', '2', '', 1626062146),
+(71, 'khoakillall', '12324435542453', '950', '', '2', '', 1626062135),
+(70, 'khoakillall', '12324436632', '950', '', '2', '', 1626062119),
+(69, 'khoakillall', '123326643553', '950', '', '2', '', 1626062109),
+(68, 'khoakillall', '/1345346643', '950', '', '2', '', 1626062090),
+(67, 'khoakillall', '1322664', '950', '', '2', '', 1626062080),
+(66, 'khoakillall', '12325532', '950', '', '2', '', 1626062062),
+(65, 'khoakillall', '1332244434533', '950', '', '2', '', 1626062047),
+(64, 'khoakillall', 'jjjj', '950', '', '2', '', 1626062025),
+(63, 'khoakillall', '13323454', '950', '', '2', '', 1626062008),
+(62, 'khoakillall', '123456789', '950', '', '2', '', 1626007566),
+(61, 'khoakillall', 'j', '90', '', '2', '', 1626006306),
+(60, 'khoakillall', '7868687687', '465', '', '2', '', 1626006258),
+(104, 'khoakillall', '123174553345', '950', '', '2', '', 1626081293),
+(105, 'khoakillall', '1232433654565', '950', '', '2', '', 1626081312),
+(106, 'khoakillall', '122435434532454', '950', '', '2', '', 1626081323),
+(107, 'khoakillall', '13325534543543', '950', '', '2', '', 1626081336),
+(108, 'khoakillall', '1332553663', '950', '', '1', '', 1626081345),
+(109, 'khoakillall', '132223233', '950', '', '1', '', 1626081363),
+(110, 'khoakillall', '133443543554', '950', '', '1', '', 1626081373),
+(111, 'khoakillall', '1005737578636', '950', '', '1', '', 1626314618),
+(112, 'tuancao', '58648456777', '950', '', '1', '', 1627446655),
+(113, 'tuancao', '58648456777', '950', '', '2', '', 1627446741),
+(114, 'zakboycoder', '1796795050', '950', '', '2', '', 1627524010);
 
 -- --------------------------------------------------------
 
@@ -414,17 +415,18 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `value`) VALUES
-(9, 'web_logo', '{\"url\":\"https:\\/\\/quanlyshop.vip\\/upload\\/settings\\/162114639037678609.png\",\"height\":\"40\",\"width\":\"85\"}'),
+(9, 'web_logo', '{\"url\":\"https:\\/\\/quanlyshop.vip\\/upload\\/settings\\/162114639037678609.png\",\"height\":\"30\",\"width\":\"75\"}'),
 (10, 'web_banner', '{\"url\":\"https:\\/\\/quanlyshop.vip\\/upload\\/settings\\/162114532127745875.gif\"}'),
 (8, 'web_title', '{\"title\":\"Shopmrkidff.vn | Shop B\\u00e1n Acc Free Fire - Li\\u00ean Qu\\u00e2n | Gi\\u00e1 R\\u1ebb - Uy T\\u00edn - Ch\\u1ea5t L\\u01b0\\u1ee3ng\",\"name\":\"Shopmrkidff.vn | Shop B\\u00e1n Acc Free Fire - Li\\u00ean Qu\\u00e2n | Gi\\u00e1 R\\u1ebb - Uy T\\u00edn - Ch\\u1ea5t L\\u01b0\\u1ee3ng\"}'),
-(12, 'web_admin', '{\"name\":\"Khoakillall\",\"phone\":\"000000000\",\"facebook\":\"https:\\/\\/www.facebook.com\\/youtube.khoakillall\\/\",\"youtube\":\"https:\\/\\/www.facebook.com\\/youtube.khoakillall\\/\"}'),
+(12, 'web_admin', '{\"name\":\"\",\"phone\":\"\",\"facebook\":\"\",\"youtube\":\"\"}'),
 (13, 'web_thongbao', '{\"thongbao\":\"<img src=\\\"https:\\/\\/i.imgur.com\\/fHccsUl.png\\\" >\\r\\n\",\"time\":\"\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622719234250803.gif\",\"lienquan\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622719328936306.gif\",\"bingonoel\":\"https:\\/\\/shophungakira.vn\\/upload-usr\\/images\\/TsAVdJDPYA_1624282468.gif\",\"bingosieucap\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622719000681151.gif\",\"mayxeng\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622718983345880.gif\",\"homkimcuong\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622719100719226.gif\",\"homthinhff\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1622719086396446.gif\",\"lattheff\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/162271904178628.gif\",\"lattheff1\":\"https:\\/\\/upanh.cf\\/nbwgysu87w.gif\"}'),
-(11, 'web_color', '{\"color\":\"\"}'),
+(11, 'web_color', '{\"color\":\"#00ff00\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"0\",\"dichvu\":\"1\",\"random\":\"1\"}'),
-(17, 'web_napthe', '{\"kieunap\":\"naptudong\"}'),
-(18, 'web_brick', '{\"site\":\"cardsieure\",\"partner_id\":\"3044285261\",\"partner_key\":\"82af47294a5006062e4ac9f08e4a342a\"}');
+(17, 'web_napthe', '{\"kieunap\":\"napcham\"}'),
+(18, 'web_brick', '{\"site\":\"cardsieure\",\"partner_id\":\"3044285261\",\"partner_key\":\"82af47294a5006062e4ac9f08e4a342a\"}'),
+(19, 'kimcuong', '{\"apikey\":\"\"}');
 
 -- --------------------------------------------------------
 
@@ -625,7 +627,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `admin`, `name`, `username`, `password`, `email`, `money`, `money_nap`, `kimcuong`, `quanhuy`, `token`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(87, '0', 20, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '0', '0', '0', '0', '4cde53058e44fa49a16520378fd1235fa0ab77040fd525b06791ff95a178', '251be6520ba2ea55c84e1b3210e0ef8293bf0bfdb68babb0686527189ca8', '42.114.33.230', 'true', '16054', 1657676498);
+(87, '0', 20, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '0', '0', '10000', '0', 'c415dac38161a0996d0e8d7eaae1f9545fd8ef0b838f323b80600f17fb4f', '251be6520ba2ea55c84e1b3210e0ef8293bf0bfdb68babb0686527189ca8', '1.53.241.24', 'true', '16054', 1657676498);
 
 -- --------------------------------------------------------
 
@@ -2751,7 +2753,7 @@ ALTER TABLE `rut_quan_huy`
 -- AUTO_INCREMENT cho bảng `settings`
 --
 ALTER TABLE `settings`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
