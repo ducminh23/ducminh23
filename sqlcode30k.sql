@@ -142,8 +142,8 @@ CREATE TABLE `rut_kim_cuong` (
 INSERT INTO `rut_kim_cuong` (`id`, `username`, `idgame`, `kimcuong`, `noidung`, `status`, `request_id`, `time`) VALUES
 (15, 'nnnonjb', '628268262', '9999', 'Địt mẹ mày', '0', '', 1602816566),
 (16, 'admin123', '3220826973', '9999', 'QQ', '1', '', 1656474042),
-(17, 'bentancoder', '1', '90', '8', '0', '16117', 1662080214),
-(18, 'bentancoder', '1', '90', '5', '0', '56644', 1662080665);
+(17, 'bentancoder', '1', '90', '8', '0', '16117', 1662080214);
+
 
 -- --------------------------------------------------------
 
@@ -279,8 +279,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fbid`, `admin`, `name`, `username`, `password`, `email`, `money`, `money_nap`, `kimcuong`, `quanhuy`, `token`, `auth`, `ip`, `verify`, `verify_code`, `time`) VALUES
-(10, '0', 1, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '19000000', '0', '2109.999', '0', '56a49cb139c3f2dadaabe37558ae3a331eeb3d79884f4edabb06b2dea66e', '7f3dab45cb604da7006119a295e3e10b856c9bdab65930436abb0c51b226', '1.53.241.24', 'true', '48335', 1656472300),
-(11, '0', 0, 'bentancoder', 'bentancoder', 'b736c27517557c496846c09aafe83a74', 'bentancoder@gmail.com', '49999951000', '0', '2123041', '0', 'bef10d4b0f95d32dc694cc8b892cf023db54d56b542bda4cf8d3d6b56344', '95f3105c738076bacd0e78445ed6ba8ef1e7d9e0252cdfd9430e67ccb349', '14.172.105.216', 'true', '35820', 1662079904);
+(10, '0', 1, 'admin123', 'admin123', '0192023a7bbd73250516f069df18b500', 'dichvucheap.com@gmail.com', '19000000', '0', '2109.999', '0', '56a49cb139c3f2dadaabe37558ae3a331eeb3d79884f4edabb06b2dea66e', '7f3dab45cb604da7006119a295e3e10b856c9bdab65930436abb0c51b226', '1.53.241.24', 'true', '48335', 1656472300);
 
 -- --------------------------------------------------------
 
