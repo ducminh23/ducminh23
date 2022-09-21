@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th9 21, 2022 lúc 02:13 PM
+-- Thời gian đã tạo: Th9 21, 2022 lúc 02:43 PM
 -- Phiên bản máy phục vụ: 10.5.16-MariaDB-cll-lve
 -- Phiên bản PHP: 7.4.30
 
@@ -190,14 +190,14 @@ CREATE TABLE `settings` (
 INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (9, 'web_logo', '{\"url\":\"https:\\/\\/i.imgur.com\\/PrRLMK3.png\",\"height\":\"30\",\"width\":\"100\"}'),
 (10, 'web_banner', '{\"url\":\"https:\\/\\/i.imgur.com\\/twd6Ld3.gif\"}'),
-(8, 'web_title', '{\"title\":\"Shop Ch\\u00ednh Th\\u1ee9c C\\u1ee7a Garena FreeFire\",\"name\":\"SHOPMATHUAT.COM\"}'),
-(12, 'web_admin', '{\"name\":\"\\u0110\\u1ea1t Light\",\"phone\":\"0382440207\",\"facebook\":\"https:\\/\\/www.facebook.com\\/dat.lightdzz\",\"youtube\":\"https:\\/\\/www.youtube.com\\/c\"}'),
-(13, 'web_thongbao', '{\"thongbao\":\"<center><b>SHOPMATHUAT \\u0110ANG GI\\u1ea2M GI\\u00c1 TO\\u00c0N B\\u1ed8!<\\/b><\\/center>\\r\\n<center><b>\\u2605 H\\u1ed7 tr\\u1ee3 n\\u1ea1p th\\u1ebb b\\u1eb1ng c\\u00e1c lo\\u1ea1i th\\u1ebb c\\u00e0o:<font color=\\\"orange\\\"> Viettel, Mobifone, Vinaphone<\\/font> v\\u00e0 <font color=\\\"orange\\\">Ho\\u00e0n To\\u00e0n T\\u1ef1 \\u0110\\u1ed9ng 100%<\\/font><\\/b><\\/center>\\r\\n<center><b>\\u01afu ti\\u00ean n\\u1ea1p th\\u1ebb Viettel v\\u00e0 Vinaphone \\u0111\\u1ec3 \\u0111\\u01b0\\u1ee3c x\\u1eed l\\u00ed t\\u1ef1 \\u0111\\u00f4ng!<\\/b><\\/center>\",\"time\":\"18\"}'),
+(8, 'web_title', '{\"title\":\"Shop Ch\\u00ednh Th\\u1ee9c C\\u1ee7a Garena FreeFire\",\"name\":\"Dichvucheap.com\"}'),
+(12, 'web_admin', '{\"name\":\"Dvc\",\"phone\":\"0382440207\",\"facebook\":\"\",\"youtube\":\"\"}'),
+(13, 'web_thongbao', '{\"thongbao\":\"<center><b> \\u0110ANG GI\\u1ea2M GI\\u00c1 TO\\u00c0N B\\u1ed8!<\\/b><\\/center>\\r\\n<center><b>\\u2605 H\\u1ed7 tr\\u1ee3 n\\u1ea1p th\\u1ebb b\\u1eb1ng c\\u00e1c lo\\u1ea1i th\\u1ebb c\\u00e0o:<font color=\\\"orange\\\"> Viettel, Mobifone, Vinaphone<\\/font> v\\u00e0 <font color=\\\"orange\\\">Ho\\u00e0n To\\u00e0n T\\u1ef1 \\u0110\\u1ed9ng 100%<\\/font><\\/b><\\/center>\\r\\n<center><b>\\u01afu ti\\u00ean n\\u1ea1p th\\u1ebb Viettel v\\u00e0 Vinaphone \\u0111\\u1ec3 \\u0111\\u01b0\\u1ee3c x\\u1eed l\\u00ed t\\u1ef1 \\u0111\\u00f4ng!<\\/b><\\/center>\",\"time\":\"18\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/i.imgur.com\\/QMCLud3.jpg\",\"vanmayff\":\"https:\\/\\/i.imgur.com\\/97ay0wP.gif\",\"homthinhff\":\"https:\\/\\/i.imgur.com\\/7vXohcY.gif\",\"lattheff\":\"https:\\/\\/i.imgur.com\\/WB0A70a.gif\",\"sieucapff\":\"https:\\/\\/i.imgur.com\\/W23Ev8N.gif\",\"codesungff\":\"https:\\/\\/i.imgur.com\\/Hlji2zs.gif\"}'),
 (11, 'web_color', '{\"color\":\"#797f66\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"sieucapff\":\"1\",\"codesungff\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"dichvu\":\"1\",\"random\":\"1\"}'),
-(17, 'web_napthe', '{\"kieunap\":\"naptudong\",\"api_key\":\"6b45b308-c01a-4331-b28e-c08c2f08c347\"}'),
+(17, 'web_napthe', '{\"kieunap\":\"napcham\",\"api_key\":\"6b45b308-c01a-4331-b28e-c08c2f08c347\"}'),
 (18, 'web_brick', '{\"kieunap\":\"naptudong\",\"api_key\":\"6b45b308-c01a-4331-b28e-c08c2f08c347\"}');
 
 -- --------------------------------------------------------
@@ -448,9 +448,7 @@ INSERT INTO `vongquay_kimcuong` (`id`, `name`, `mota`, `giatien`, `sudung`, `sta
 (24, 'VĂ²ng Quay Bá»‹ Lá»—i 17K', '', '17000', '2025', 'true', 1598212811),
 (26, 'VĂ²ng Quay Sinh Nháº­t Freefire', '', '20000', '1241', 'true', 1599290268),
 (27, 'VĂ²ng Quay Táº¿t Trung Thu', '', '21000', '78418', 'true', 1599290494),
-(28, 'VĂ²ng Quay Du Lá»‹ch MĂ¹a HĂ¨', '', '19000', '1134', 'true', 1599290683),
-(32, '3423', 'rewrwe', '4234234', '0', 'true', 1603283317),
-(33, 'Test', 'Hshsh', '0000', '0', 'false', 1603544166);
+(28, 'VĂ²ng Quay Du Lá»‹ch MĂ¹a HĂ¨', '', '19000', '1134', 'true', 1599290683);
 
 -- --------------------------------------------------------
 
@@ -483,9 +481,7 @@ INSERT INTO `vongquay_kimcuong_gift` (`id`, `id_vongquay`, `item_1`, `item_2`, `
 (24, 25, '{\"text\":\"q\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"a\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"s\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"h\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"h\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"h\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"h\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"h\",\"kimcuong\":\"0\",\"tyle\":\"10\"}'),
 (25, 26, '{\"text\":\"9999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"9999\",\"tyle\":\"10\"}', '{\"text\":\"3000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"3000\",\"tyle\":\"10\"}', '{\"text\":\"1000\",\"kimcuong\":\"1000\",\"tyle\":\"10\"}', '{\"text\":\"350 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"350\",\"tyle\":\"10\"}', '{\"text\":\"6000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"6000\",\"tyle\":\"10\"}', '{\"text\":\"250 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"250\",\"tyle\":\"10\"}', '{\"text\":\"100 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"100\",\"tyle\":\"10\"}', '{\"text\":\"Ch\\u00fac M\\u1eebng Sinh Nh\\u1eadt\",\"kimcuong\":\"0\",\"tyle\":\"10\"}'),
 (26, 27, '{\"text\":\"18999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"18999\",\"tyle\":\"10\"}', '{\"text\":\"Ng\\u00f4i Sao May M\\u1eafn\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"8000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"8000\",\"tyle\":\"10\"}', '{\"text\":\"235 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"235\",\"tyle\":\"10\"}', '{\"text\":\"5999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"5999\",\"tyle\":\"10\"}', '{\"text\":\"1111 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"1111\",\"tyle\":\"10\"}', '{\"text\":\"2999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"2999\",\"tyle\":\"10\"}', '{\"text\":\"100 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"100\",\"tyle\":\"10\"}'),
-(27, 28, '{\"text\":\"Du L\\u1ecbch M\\u00f9a H\\u00e8\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"100 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"100\",\"tyle\":\"10\"}', '{\"text\":\"235 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"235\",\"tyle\":\"10\"}', '{\"text\":\"263 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"263\",\"tyle\":\"10\"}', '{\"text\":\"1111 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"1111\",\"tyle\":\"10\"}', '{\"text\":\"2999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"2999\",\"tyle\":\"10\"}', '{\"text\":\"8000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"8000\",\"tyle\":\"10\"}', '{\"text\":\"9000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"9000\",\"tyle\":\"10\"}'),
-(31, 32, '{\"text\":\"24\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"23423423\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"423423\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"4ewrwe\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"werwerw\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"erwerwr\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"werwer\",\"kimcuong\":\"0\",\"tyle\":\"0\"}', '{\"text\":\"wer\",\"kimcuong\":\"0\",\"tyle\":\"0\"}'),
-(32, 33, '{\"text\":\"1\",\"kimcuong\":\"01\",\"tyle\":\"0100\"}', '{\"text\":\"2\",\"kimcuong\":\"02\",\"tyle\":\"0100\"}', '{\"text\":\"3\",\"kimcuong\":\"03\",\"tyle\":\"0100\"}', '{\"text\":\"4\",\"kimcuong\":\"04\",\"tyle\":\"00000\"}', '{\"text\":\"5\",\"kimcuong\":\"05\",\"tyle\":\"0\"}', '{\"text\":\"6\",\"kimcuong\":\"06\",\"tyle\":\"0\"}', '{\"text\":\"7\",\"kimcuong\":\"07\",\"tyle\":\"0\"}', '{\"text\":\"8\",\"kimcuong\":\"08\",\"tyle\":\"0\"}');
+(27, 28, '{\"text\":\"Du L\\u1ecbch M\\u00f9a H\\u00e8\",\"kimcuong\":\"0\",\"tyle\":\"10\"}', '{\"text\":\"100 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"100\",\"tyle\":\"10\"}', '{\"text\":\"235 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"235\",\"tyle\":\"10\"}', '{\"text\":\"263 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"263\",\"tyle\":\"10\"}', '{\"text\":\"1111 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"1111\",\"tyle\":\"10\"}', '{\"text\":\"2999 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"2999\",\"tyle\":\"10\"}', '{\"text\":\"8000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"8000\",\"tyle\":\"10\"}', '{\"text\":\"9000 Kim C\\u01b0\\u01a1ng\",\"kimcuong\":\"9000\",\"tyle\":\"10\"}');
 
 --
 -- Chỉ mục cho các bảng đã đổ
