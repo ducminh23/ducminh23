@@ -240,7 +240,7 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (8, 'web_title', '{\"title\":\"DichVuCheap.Com - D\\u1ecbch V\\u1ee5 Thi\\u1ebft K\\u1ebf Web Mmo Gi\\u00e1 R\\u1ebb\",\"name\":null}'),
 (26, 'web_maushop', '{\"nhdright\":\"#fff700\"}'),
 (12, 'web_admin', '{\"name\":\"DICHVUCHEAP\",\"phone\":\"0969053204\",\"facebook\":\"\",\"youtube\":null}'),
-(13, 'web_thongbao', '{\"thongbao\":\"<img src=\\\"https:\\/\\/dichvushop.asia\\/Tbshop\\\">           \",\"time\":\"\"}'),
+(13, 'web_thongbao', '{\"thongbao\":\"<img src=\\\"https:\\/\\/dichvucheap.com\\/Tbshop\\\">           \",\"time\":\"\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1671045441448100.gif\",\"lienquan\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1620811932732895.gif\",\"mayxeng\":\"https:\\/\\/admin.shopanhhaivlog.vn\\/upload\\/doanhmuc\\/162557154980931.gif\",\"homkimcuong\":\"https:\\/\\/quanlyshop.vip\\/upload\\/doanhmuc\\/1671045570199192.gif\",\"homthinhff\":\"\\/upload\\/1673856737319646.gif\",\"bingo5\":null,\"lattheff1\":\"\"}'),
 (11, 'web_color', '{\"color\":null}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"0\",\"homthinhff\":\"1\",\"bingo5\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"0\"}'),
