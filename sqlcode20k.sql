@@ -714,17 +714,17 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `value`) VALUES
-(9, 'web_logo', '{\"url\":\"https:\\/\\/upanh.cf\\/7hag30q018.png\",\"height\":\"0\",\"width\":\"0\"}'),
-(10, 'web_banner', '{\"url\":\"https:\\/\\/img.upanh.tv\\/2022\\/08\\/06\\/bia2.png\"}'),
+(9, 'web_logo', '{\"url\":\"https:\\/\\/upanh.cf\\/o3k8h94kwn.png\",\"height\":\"0\",\"width\":\"0\"}'),
+(10, 'web_banner', '{\"url\":\"https:\\/\\/upanh.cf\\/nsljc28b60.gif\"}'),
 (8, 'web_title', '{\"title\":\"Shop Acc H\\u00e0ng \\u0110\\u1ea7u Vi\\u1ec7t Nam\",\"name\":\"Shop Acc H\\u00e0ng \\u0110\\u1ea7u Vi\\u1ec7t Nam\"}'),
-(12, 'web_admin', '{\"name\":null,\"phone\":\"0498844884\",\"facebook\":\"https:\\/\\/dichvucheap.com\"}'),
-(13, 'web_thongbao', '{\"thongbao\":\"\",\"time\":\"\"}'),
+(12, 'web_admin', '{\"name\":null,\"phone\":\"0865709727\",\"facebook\":\"\"}'),
+(13, 'web_thongbao', '{\"thongbao\":\"<p>SHOP KHAI TR\\u01af\\u01a0NG \\u01afU \\u0110&Atilde;I GI\\u1ea2M GI&Aacute; 80% ACC BLOXFRUIT&nbsp;<\\/p>\\r\\n\\r\\n<p>N\\u1ea0P TH\\u1eba T\\u1ef0 \\u0110\\u1ed8NG DUY\\u1ec6T T\\u1eea 5-30P&nbsp;<\\/p>\\r\\n\\r\\n<p>ZALO ADMIN :ZALO&nbsp;0865709727 h\\u1ed7 tr\\u1ee3 24\\/7<\\/p>\\r\\n\\r\\n<p>(&nbsp;<span style=\\\"color:#e74c3c\\\">Vui L&ograve;ng Kh&ocirc;ng Spam Tin Nh\\u1eafn !)<\\/span><\\/p>\\r\\n\\r\\n<p>TIKTOK : <u>Hcuauytinnhattiktok<\\/u><\\/p>\\r\\n\\r\\n<p>&nbsp;<\\/p>\\r\\n\",\"time\":\"\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/nickff.gif\",\"lienquan\":\"https:\\/\\/lthquanly.shop\\/assets\\/upload\\/product\\/thumb%20acc%20li%C3%AAn%20qu%C3%A2n%20t%E1%BB%B1%20ch%E1%BB%8Dn.gif\",\"bingonoel\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumb.gif\",\"bingosieucap\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumbb.gif\",\"mayxeng\":null,\"homkimcuong\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/mo_ruong_than_tai.gif\",\"homthinhff\":null,\"lattheff\":null,\"gametrungthu\":null,\"giaicuu\":null}'),
 (11, 'web_color', '{\"color\":null,\"background\":\"https:\\/\\/i.upanh.org\\/2022\\/08\\/06\\/lPzOyJTN6L_1659694003.png\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"game\":1,\"random\":\"1\"}'),
-(17, 'web_napthe', '{\"kieunap\":\"napcham\",\"apikey\":\"b8d4082e7494217e1e7661e7f038f6e9\"}'),
-(21, 'web_brick', '{\"site\":null,\"chieckhau\":\"1\",\"ck_nap\":\"1\",\"kieunapck\":null,\"partner_key\":null}');
+(17, 'web_napthe', '{\"kieunap\":\"naptudong\",\"partnerid\":\"32742261459\",\"partnerkey\":\"53c3e79e5b14af746c2cbd0938bc432f\"}'),
+(21, 'web_brick', '{\"site\":null,\"chieckhau\":\"20\",\"ck_nap\":\"\",\"kieunapck\":null,\"partner_key\":null}');
 
 -- --------------------------------------------------------
 
