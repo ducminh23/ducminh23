@@ -499,7 +499,7 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (11, 'web_color', '{\"color\":null,\"background\":\"https://quanlyshop.vip/upload/doanhmuc/1662493129520197.png\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"game\":1,\"random\":\"1\"}'),
-(17, 'web_napthe', '{\"kieunap\":\"napcham\",\"apikey\":\"b8d4082e7494217e1e7661e7f038f6e9\"}'),
+(17, 'web_napthe', '{\"kieunap\":\"naptudong\",\"partnerid\":\"32742261459\",\"partnerkey\":\"53c3e79e5b14af746c2cbd0938bc432f\"}'),
 (21, 'web_brick', '{\"site\":null,\"chieckhau\":\"1\",\"ck_nap\":\"1\",\"kieunapck\":null,\"partner_key\":null}');
 
 -- --------------------------------------------------------
