@@ -496,7 +496,7 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (12, 'web_admin', '{\"name\":null,\"phone\":\"0498844884\",\"facebook\":\"https:\\/\\/dichvucheap.com\"}'),
 (13, 'web_thongbao', '{\"thongbao\":\"\",\"time\":\"\"}'),
 (16, 'hinhanh_game', '{\"banaccff\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/nickff.gif\",\"lienquan\":\"https:\\/\\/lthquanly.shop\\/assets\\/upload\\/product\\/thumb%20acc%20li%C3%AAn%20qu%C3%A2n%20t%E1%BB%B1%20ch%E1%BB%8Dn.gif\",\"bingonoel\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumb.gif\",\"bingosieucap\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/thumbb.gif\",\"mayxeng\":null,\"homkimcuong\":\"https:\\/\\/tunalee.pro\\/upload\\/images\\/upload-usr\\/mo_ruong_than_tai.gif\",\"homthinhff\":null,\"lattheff\":null,\"gametrungthu\":null,\"giaicuu\":null}'),
-(11, 'web_color', '{\"color\":null,\"background\":\"https://quanlyshop.vip/upload/doanhmuc/1662493129520197.png\"}'),
+(11, 'web_color', '{\"color\":null,\"background\":\"https://cdns.diongame.com/static/image-5c69ddf6-b3fe-4774-8627-b55b87e78bf3.jpeg\"}'),
 (14, 'hienthi_game', '{\"banaccff\":\"1\",\"vanmayff\":\"1\",\"homthinhff\":\"1\",\"lattheff\":\"1\",\"homkimcuong\":\"1\",\"lienquan\":\"1\"}'),
 (15, 'hienthi_web', '{\"napthe_mobile\":\"1\",\"napthe_pc\":\"1\",\"vongquay\":\"1\",\"game\":1,\"random\":\"1\"}'),
 (17, 'web_napthe', '{\"kieunap\":\"naptudong\",\"partnerid\":\"32742261459\",\"partnerkey\":\"53c3e79e5b14af746c2cbd0938bc432f\"}'),
